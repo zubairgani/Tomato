@@ -5,7 +5,10 @@
   margin-top: -80px;
 }
 .explore-menu h1 {
-  font-weight: 500;
+  margin-top: 100px;
+  font-weight: 600;
+  color: tomato;
+  font-size: max(2vw, 24px);
 }
 .explore-menu-text {
   max-width: 100%;
