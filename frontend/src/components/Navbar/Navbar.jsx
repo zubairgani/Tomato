@@ -11,7 +11,6 @@ const Navbar = ({ setShowLogin }) => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Determine if current page is home page
   const isHomePage = location.pathname === "/";
 
   useEffect(() => {
@@ -32,7 +31,6 @@ const Navbar = ({ setShowLogin }) => {
         <img className="logo" src={assets.logo} alt="Logo" />
       </RouterLink>
 
-      {/* Show full navbar only on home page */}
       {isHomePage && (
         <ul className="navbar-menu">
           <li>
@@ -43,7 +41,7 @@ const Navbar = ({ setShowLogin }) => {
           <li>
             <ScrollLink
               to="explore-menu"
-              offset={-100}
+              offset={-10}
               smooth={true}
               duration={1000}
             >
@@ -68,7 +66,6 @@ const Navbar = ({ setShowLogin }) => {
         </ul>
       )}
 
-      {/* Always show these on all pages */}
       <div className="navbar-right">
         <RouterLink to="/cart" className="navbar-basket-icon">
           <img src={assets.bag_icon} alt="Basket" />
