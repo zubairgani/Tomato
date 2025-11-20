@@ -95,6 +95,7 @@ li:hover {
   display: none;
   right: 0;
 }
+
 .navbar-profile-dropdown:hover {
   transition: 3s;
 }
@@ -132,49 +133,47 @@ li:hover {
   border: none;
 }
 
-/* -----Media Query----- */
+/*-----Media Querry-----*/
 
 @media (max-width: 1050px) {
+  .navbar {
+    padding: 0px 60px;
+  }
   .navbar .logo {
     width: 140px;
   }
-
   .navbar-menu {
     gap: 20px;
     font-size: 17px;
   }
-
   .navbar-right {
     gap: 30px;
   }
-
   .navbar-right img {
     width: 22px;
   }
-
   .navbar-right button {
     padding: 8px 25px;
   }
 }
 
 @media (max-width: 900px) {
+  .navbar {
+    padding: 0 40px;
+  }
   .navbar .logo {
     width: 120px;
   }
-
   .navbar-menu {
     gap: 15px;
     font-size: 16px;
   }
-
   .navbar-right {
     gap: 20px;
   }
-
   .navbar-right img {
     width: 20px;
   }
-
   .navbar-right button {
     font-size: 15px;
     padding: 7px 20px;
@@ -182,11 +181,64 @@ li:hover {
 }
 
 @media (max-width: 750px) {
-  .navbar-menu {
-    display: none;
+  .navbar {
+    padding: 0 20px;
+    height: 60px;
   }
   .navbar .logo {
-    margin-left: -140px;
-    margin-right: 120px;
+    width: 100px;
+    margin: 0;
+    order: -1;
+  }
+
+  .navbar-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 14px;
+  }
+  .navbar-menu li {
+    padding: 0;
+  }
+  .navbar-right {
+    gap: 10px;
+  }
+  .navbar-right button {
+    font-size: 13px;
+    padding: 5px 16px;
+  }
+}
+
+@media (max-width: 504px) {
+  .navbar {
+    padding: 0 20px;
+    height: 60px;
+  }
+  .navbar .logo {
+    width: 60px;
+    margin: 0;
+    order: -1;
+  }
+
+  .navbar-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 10px;
+  }
+  .navbar-menu li {
+    padding: 0;
+  }
+  .navbar-right {
+    gap: 10px;
+  }
+
+  .navbar-right img {
+    width: 13px;
+  }
+
+  .navbar-right button {
+    font-size: 10px;
+    padding: 2px 12px;
   }
 }
