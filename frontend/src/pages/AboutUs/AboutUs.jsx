@@ -5,6 +5,7 @@ const AboutUs = () => {
   return (
     <div className="aboutus">
       <h1>About Us</h1>
+      <p className="updated">Last updated: November 2025</p>
       <p>Welcome to Tomato Food Delivery!</p>
       <p>
         At Tomato, our mission is to bring delicious food right to your
