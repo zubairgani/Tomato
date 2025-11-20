@@ -1,16 +1,23 @@
 h1 {
   margin-top: 110px;
   color: tomato;
-  font-size: 30px;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
 }
+
+.updated {
+  font-size: 15px;
+  color: gray;
+  display: flex;
+  justify-content: right;
+}
+
 h2 {
   color: tomato;
   font-size: 18px;
 }
-.updated {
-  font-size: 15px;
-  color: #888;
-}
+
 .privacypolicy li:hover {
   color: black;
   transform: none;
