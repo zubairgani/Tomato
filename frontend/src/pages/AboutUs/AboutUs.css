@@ -1,4 +1,4 @@
-h1 {
+.aboutus h1 {
   margin-top: 110px;
   color: tomato;
   font-size: 35px;
@@ -6,7 +6,7 @@ h1 {
   justify-content: center;
 }
 
-h2 {
+.aboutus h2 {
   color: tomato;
   font-size: 18px;
 }
@@ -19,7 +19,7 @@ h2 {
 .aboutus p a:hover {
   color: tomato;
 }
-.updated {
+.aboutus .updated {
   font-size: 15px;
   color: gray;
   display: flex;
