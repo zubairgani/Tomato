@@ -67,7 +67,7 @@ const Footer = () => {
               <a href="tel:+917006916615">Call Us</a>
             </li>
             <li>
-              <a href="mailto:zubairgani003@gmail.com">Write an emai to us</a>
+              <a href="mailto:zubairgani003@gmail.com">Write an email to us</a>
             </li>
           </ul>
         </div>
@@ -75,7 +75,7 @@ const Footer = () => {
 
       <hr />
 
-     <p className="footer-copyright">
+      <p className="footer-copyright">
         <a href="https://zubairgani.vercel.app/">
           Copyright © 2025 Tomato.com. All rights reserved
         </a>
